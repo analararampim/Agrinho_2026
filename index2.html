@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salve o Planeta — Agrinho 2026</title>
+  <meta name="description" content="Jogo educativo: recicle, apague queimadas, economize água e plante árvores. Salve o planeta!" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="game-wrap">
+    <div class="game-frame">
+      <!-- HUD -->
+      <div class="hud">
+        <div class="hud-left">
+          <span class="pill">🪙 <b id="hudCoins">0</b></span>
+          <span class="pill">❤️ <b id="hudLives">3</b></span>
+          <span class="pill">⏰ <b id="hudTime">40</b>s</span>
+          <span class="pill">🚀 Fase <b id="hudPhase">1</b>/<b id="hudTotal">10</b></span>
+        </div>
+        <div class="hud-right">
+          <button id="btnPause" class="btn btn-amber">⏸ Pausar</button>
+          <a href="jardim.html" class="btn btn-emerald" style="text-decoration:none">🌳 Jardim</a>
+          <button id="btnRestart" class="btn btn-light">↺ Menu</button>
+        </div>
+      </div>
+
+      <div class="goal-pill">
+        🎯 Meta: <b id="hudScore">0</b>/<b id="hudGoal">10</b> — ⬆️⬇️ ou toque para mover
+      </div>
+
+      <canvas id="game"></canvas>
+
+      <!-- Overlays -->
+      <div id="overlay" class="overlay hidden">
+        <div class="card" id="overlayCard"></div>
+      </div>
+
+      <div id="menu" class="overlay">
+        <div class="card">
+          <h1>🌱 Salve o Planeta</h1>
+          <p class="sub">Agrinho 2026 • Do campo à cidade, cuidando do nosso mundo</p>
+          <h3>Como jogar</h3>
+          <ul class="how">
+            <li>⬆️ ⬇️ (ou W/S) — no celular toque e arraste para mover o herói 🦸</li>
+            <li>♻️ 💧 🌱 🍃 — colete itens bons (ganha pontos e moedas)</li>
+            <li>🔥 ☠️ 🛢️ ☣️ 🏭 — desvie da poluição (perde vida)</li>
+            <li>Atinja a meta antes do tempo acabar para passar de fase</li>
+            <li>São 10 fases — cada uma mais rápida que a anterior</li>
+          </ul>
+          <button id="btnStart" class="btn btn-emerald big">▶ Começar a jogar</button>
+          <a href="jardim.html" class="btn btn-light big" style="text-decoration:none;display:inline-block;margin-top:8px">🌳 Meu Jardim</a>
+        </div>
+      </div>
+    </div>
+
+    <p class="hint">Projeto autoral • HTML, CSS e JavaScript puros • Canvas API</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
