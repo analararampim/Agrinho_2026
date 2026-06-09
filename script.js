@@ -299,7 +299,7 @@ function showOverlay(result) {
       <p>Você ganhou <b>🪙 ${cfg.reward} moedas</b>!<br>Total: <b>${coins}</b></p>
       <div class="actions">
         <button class="btn btn-emerald big" id="btnNext">Fase ${phaseIdx + 2} →</button>
-        <a href="jardim.html" class="btn btn-light big" style="text-decoration:none">🌳 Jardim</a>
+        <a href="index.html" class="btn btn-light big" style="text-decoration:none">🌳 Jardim</a>
       </div>`;
     o.classList.remove("hidden");
     $("btnNext").onclick = () => startPhase(phaseIdx + 1);
@@ -319,7 +319,7 @@ function showOverlay(result) {
       <p>Você completou as ${TOTAL_PHASES} fases!<br>Moedas: <b>🪙 ${coins}</b></p>
       <div class="actions">
         <button class="btn btn-emerald big" id="btnAgain">🔁 Jogar de novo</button>
-        <a href="jardim.html" class="btn btn-light big" style="text-decoration:none">🌳 Jardim</a>
+        <a href="index.html" class="btn btn-light big" style="text-decoration:none">🌳 Jardim</a>
       </div>`;
     o.classList.remove("hidden");
     $("btnAgain").onclick = () => startPhase(0);
