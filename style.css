@@ -118,3 +118,26 @@ canvas#game {
   .goal-pill { font-size: 12px; top: 58px; }
   .card h1 { font-size: 22px; }
 }
+
+@media (max-width: 520px) {
+
+  .card {
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: 18px;
+  }
+
+  .card h1 {
+    font-size: 20px;
+  }
+
+  .card h2 {
+    font-size: 18px;
+  }
+
+  .card .how {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+}
