@@ -19,6 +19,8 @@ O projeto busca demonstrar que pequenas atitudes podem gerar grandes transforma�
 * Desenvolver o pensamento crítico sobre os impactos da poluição e do descarte inadequado de resíduos.
 * Estimular a responsabilidade socioambiental e o cuidado com os recursos naturais.
 * Relacionar a preservação ambiental ao tema do Agrinho 2026: "Agro forte, futuro sustentável: Equilíbrio entre produção e meio ambiente".
+* Compreender a importância do equilíbrio entre produção e preservação ambiental para a construção de um futuro sustentável.
+* Valorizar práticas responsáveis que contribuam para o fortalecimento do agro e a conservação dos recursos naturais.
 * Utilizar a programação como ferramenta de educação, aprendizagem e transformação social.
 
 ## 🌾 Relação com o Tema Agrinho 2026
